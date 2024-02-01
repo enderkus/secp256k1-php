@@ -12,8 +12,7 @@ discouraged. For consensus systems this warning is critical.
 The library supports the EcDH, and signature recovery modules - these libraries are required for installation.
 
 ### Requirements
-PHP 5.* versions are supported in the v0.0.x release.
-PHP 7 is supported in the v0.1.x series. 
+This package only for PHP 8.x.x
 
 ### About the extension
   - Fully unit tested, with >99 code coverage since the v0.1.3 release.
@@ -36,7 +35,7 @@ libsecp256k1:
 
 secp256k1-php:
 ```
-    git clone git@github.com:Bit-Wasp/secp256k1-php && \
+    git clone https://github.com/enderkus/secp256k1-php.git && \
     cd secp256k1-php/secp256k1 &&                      \
     phpize &&                                          \ 
     ./configure --with-secp256k1 &&                    \  
